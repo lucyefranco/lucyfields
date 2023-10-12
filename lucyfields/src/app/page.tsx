@@ -4,7 +4,7 @@ import Header from './components/header'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Header />
+      <p>Welcome home</p>
     </main>
   )
 }
