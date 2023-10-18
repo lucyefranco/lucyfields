@@ -1,14 +1,15 @@
 import NavBar from './navbar'
+import { Send_Flowers } from 'next/font/google'
+
+const sendFlowers = Send_Flowers({weight: '400', subsets: ['latin']})
 
 export default function Header() {
   return (
-      <div>
-        <h1
-        // clickable routing to home
-        >Lucy Fields</h1>
-        <div>
+    <header>
+      <div style={{ margin: '2rem', padding: '1rem', textAlign: 'center'}}>
+        <h1 style={{fontSize: '4.5rem', padding: '1rem'}} className={sendFlowers.className}>Lucy Fields</h1>
           <NavBar />
-        </div>
       </div>
+    </header>
   )
 }
