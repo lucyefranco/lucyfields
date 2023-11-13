@@ -6,7 +6,7 @@ const sendFlowers = Send_Flowers({weight: '400', subsets: ['latin']})
 export default function Header() {
   return (
     <header>
-      <div style={{ margin: '2rem', padding: '1rem', textAlign: 'center'}}>
+      <div style={{padding: '1rem', textAlign: 'center'}}>
         <h1 style={{fontSize: '4.5rem', padding: '1rem'}} className={sendFlowers.className}>Lucy Fields</h1>
           <NavBar />
       </div>

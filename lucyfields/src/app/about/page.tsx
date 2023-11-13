@@ -2,12 +2,19 @@ import style from '../page.module.css'
 
 export default function About() {
     return (
-        <main className={style.main}>
-          <div>
-      <h2>Hi, I'm Lucy Fields</h2>
+        <main className={style.main} >
+          <div style={{display:'flex', alignItems: 'center'}}>
+          <img src="https://github.com/lucyefranco.png" alt="Lucy Fields headshot" style={{width:'50%'}}></img>
+          <div style={{padding: '2rem'}}>
+      <h1>Hi, I'm Lucy Fields</h1>
+      <br></br>
       <p>Or you might know me as <b>Lucy Franco</b>, or <b>Lucia Fields</b>, or some similar combination</p>
+      <br></br>
       <p><i>That's what happens when you grow up going by your nickname and then eventually get married.</i> </p>
       </div>
+          </div>
+          
+
       <br></br>
       <div>
       <p>In addition to going by a variety of names, I'm also a <b>wife</b>, a <b>dog-mom</b>, a recent <b>Utah transplant</b>, a <b>career-changer</b>, and a <b>lifelong learner.</b></p>
